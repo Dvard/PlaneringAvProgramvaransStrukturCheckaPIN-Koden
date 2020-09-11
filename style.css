@@ -1,0 +1,39 @@
+#pad {
+	display: grid;
+	grid-template-columns: 12vh 12vh 12vh;
+	grid-template-rows: 12vh 12vh 12vh 12vh 12vh 12vh;
+}
+
+#input {
+	grid-column: span 3;
+	background-color: lightcyan;
+}
+
+.btn, #input {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	outline: 1px solid black;
+}
+
+.btn p {
+	width: 100%;
+}
+
+.btn:hover {
+	background-color: lightblue;
+}
+
+.btn:active {
+	background-color: darkcyan;
+}
+
+#success {
+	background-color: green;
+	visibility: hidden;
+}
+
+#fail {
+	background-color: red;
+	visibility: hidden;
+}
